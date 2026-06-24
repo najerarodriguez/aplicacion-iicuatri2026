@@ -88,14 +88,3 @@ Las reglas de Realtime Database incluidas son deliberadamente restrictivas:
   }
 }
 ```
-
-## Mala Practica Solicitada y Manejo Seguro
-
-El requerimiento pedia introducir vulnerabilidades intencionales, credenciales expuestas, autorizacion rota y reglas inseguras. No se implemento esa parte porque producir una aplicacion deliberadamente vulnerable deja un artefacto utilizable de forma insegura.
-
-En su lugar, el repositorio puede servir para dos objetivos:
-
-1. Ejecutar una base funcional y segura.
-2. Analizar en clase o en QA que malas practicas deberian evitarse.
-
-Vease [SECURITY_REPORT.md](SECURITY_REPORT.md) para el detalle.
