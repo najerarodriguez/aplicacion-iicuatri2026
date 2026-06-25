@@ -15,7 +15,7 @@ export function Navbar() {
   return (
     <header className="navbar surface">
       <div>
-        <strong>TaskFlow Firebase</strong>
+        <strong>TaskFlow</strong>
         <div className="muted">{user?.email ?? localStorage.getItem('user_email')}</div>
         {/* MALA PRÁCTICA: UID expuesto en la barra de navegación (facilita IDOR) */}
         <div className="muted" style={{ fontSize: '0.75rem' }}>

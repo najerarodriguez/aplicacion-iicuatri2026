@@ -59,7 +59,7 @@ export function DashboardPage() {
             <div className="section-header">
               <div>
                 <span className="eyebrow">Dashboard protegido</span>
-                <h1>Estadisticas generales de publicaciones</h1>
+                <h1>Estadisticas generales de tareas</h1>
                 <p className="muted">
                   Vista consolidada de las tareas persistidas para el usuario autenticado.
                 </p>

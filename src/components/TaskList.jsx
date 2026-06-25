@@ -13,8 +13,7 @@ export function TaskList({ loading, tasks, onDelete, onEdit }) {
     <section className="surface">
       <div className="section-header">
         <div>
-          <h2>Publicaciones / tareas</h2>
-          <p className="muted">Listado sincronizado desde Firebase Realtime Database.</p>
+          <h2>Tareas</h2>          
         </div>
         <strong>{tasks.length} registros</strong>
       </div>
